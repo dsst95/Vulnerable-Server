@@ -21,12 +21,23 @@ To understand how the buffer overflow works it is necessary to get some basic kn
 
 
 ## Buffer Overflow in the smart_server
-
+![](images/001_compile_and_start.png)
+![](images/002_test_with_netcat.png)
 
 ### Denial-of-Service-Attack
-
+![](images/003_long_input.png)
 
 ### Bypass survey
-
+![](images/004_run_server_debug.png)
+![](images/005_check_stack.png)
 
 ### Reverse-TCP-Connection through shellcode injection
+![](images/006_pattern_create.png)
+![](images/007_segmentation_fault.png)
+![](images/008_pattern_offset.png)
+![](images/009_send_unique_pattern.png)
+![](images/010_get_adress_of_shellcode.png)
+![](images/011_generate_shellcode.png)
+![](images/012_msfconsole.png)
+![](images/013_run_exploit.png)
+![](images/014_meterpreter.png)
