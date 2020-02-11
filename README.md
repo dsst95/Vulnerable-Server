@@ -28,7 +28,7 @@ The first try is to send a big input to the server and check what will be the re
 ![](images/003_long_input.png)
 
 ### Bypass survey
-
+The next possibility is to get with a buffer overflow access to the image form the server without knowing the correct secret text. 
 
 ![](images/004_run_server_debug.png)
 
@@ -37,7 +37,7 @@ The first try is to send a big input to the server and check what will be the re
 ![](images/005_check_stack.png)
 
 ### Reverse-TCP-Connection through shellcode injection
-
+Another possibility is to inject shellcode into the server with a buffer overflow and get access to the machine. 
 
 ![](images/006_pattern_create.png)
 
